@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    @RenderBody()
+    <footer id="footer">
+        <span>
+            @string.Format("Copyright All Rights Reserved © {0}", DateTime.Now.Year.ToString())
+        </span>
+        <span>&nbsp;</span>
+        <span>
+            @DateTime.Now.ToString()
+        </span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="362be75a-0446-4ad2-bffe-9c9fc366d44a"
+  name="PR.CreativeAPI.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="fd1bd4ed-5030-44ac-b366-b3444451a627">
+      <body>Represents classes with base functionality</body>
+      <annotatedElements>
+        <componentMoniker
+          Id="9c3564b4-4caa-4721-ab9a-7036bf56c6fc"
+          LastKnownName="Onpoint.Core"
+          LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e2114105-1454-4b3b-afb8-2fd561819666">
+      <profileInstance
+        Id="63f13e2c-ccb1-4491-90d7-e77f95ff587a"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="3eddd1ab-06e1-422f-819b-a855284b0036"
+        name="Onpoint.Core"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="6cab1bcc-437b-4b62-9966-d35cbba536e3"
+        name="PR.CreativeAPI.Core"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="5eb6d304-4614-46ae-930f-beae47661d15"
+            isSubstitutable="false">
+            <componentMoniker
+              Id="3eddd1ab-06e1-422f-819b-a855284b0036"
+              LastKnownName="Onpoint.Core"
+              LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="9a3eeade-9894-4803-be0c-53223dfc0e7d"
+        name="PR.CreativeAPI.Domain"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="ef14c1fe-e5ed-4d6b-b453-3c64b1d90580"
+            isSubstitutable="false">
+            <componentMoniker
+              Id="3eddd1ab-06e1-422f-819b-a855284b0036"
+              LastKnownName="Onpoint.Core"
+              LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+          </generalization>
+          <generalization
+            Id="cd850cc2-318c-42f1-9598-6427c7b1c2d8"
+            isSubstitutable="false">
+            <componentMoniker
+              Id="6cab1bcc-437b-4b62-9966-d35cbba536e3"
+              LastKnownName="PR.CreativeAPI.Core"
+              LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="a60aad28-8835-4c1e-889d-42e8be516f12"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="fcef4554-f437-4051-b834-a41b38d23671"
+                LastKnownName="Creative domain model"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="ffb1a88f-7127-4c35-a878-4c9a17ca09c3"
+        name="PR.CreativeAPI.Data"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="6e1a0da9-b133-49cc-bfd9-c10e0ce60c1c"
+        name="PR.CreativeAPI.Interfaces"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="fcef4554-f437-4051-b834-a41b38d23671"
+        name="Creative domain model"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="06efdcab-d757-43f9-b10b-a36087bd8c18"
+        name="Base"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="9df1f298-3f6d-45a8-aa0b-48c09032f9d8"
+        name="Base"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="75f63b79-fa70-456a-a538-87310aaa2306"
+        name="Infrastructure"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5af36104-a301-42c0-86a7-657860e0ac28"
+        LastKnownName="PR"
+        LastKnownLocation="Package_1123.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="08767d1c-18a9-493e-85bf-f894045e71b4"
+        LastKnownName="Onpoint"
+        LastKnownLocation="Package6_1123.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a42678d7-e51b-4a64-a3fb-35f01bba7c66"
+        LastKnownName="System"
+        LastKnownLocation="Package10_1123.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="241b0a50-9632-4200-9e45-5619420ad362"
+        name="CreativeAPI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f78cbb3b-4c97-4bbf-8fee-f022cdf6313e"
+            isSubstitutable="false">
+            <componentMoniker
+              Id="9c3564b4-4caa-4721-ab9a-7036bf56c6fc"
+              LastKnownName="Onpoint.Core"
+              LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="95324c9e-3c8a-43d5-adf5-a11a39ff6f92"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <targetNamedElementsInternal>
+              <connector
+                Id="b8b09bb1-d2c3-4e37-b8ae-d5abe00a2a24"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="4dcfd740-cbf3-4cde-a8e9-89af36e527f4"
+                  LastKnownName="DomainModel"
+                  LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="f5acd168-be91-418c-aa50-9a41cb5aa746" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="d0d3eb70-a40f-44dd-9f77-79afd883f9e6">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="27824cea-67ad-4e44-a2f9-9e81f9c3654c"
+                          LastKnownName="Port1"
+                          LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+              <connector
+                Id="cb6636ad-e6ee-4081-8af8-b25020d60f22"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="76a4134a-a54c-476c-9e77-d1e9b6df15dd"
+                  LastKnownName="PersistModel"
+                  LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="60786bef-73c3-4340-8ba5-7946ac906227" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="3f63aa4e-41e0-437a-b023-9d461794dafb">
+                      <portWithPart>
+                        <providedInterfaceMoniker
+                          Id="b4e11fa5-92fe-4b08-a056-92d1ddfbc5db"
+                          LastKnownName="Port1"
+                          LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+                      </portWithPart>
+                    </connectorEnd>
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="9cc27e33-e21c-4238-9ce1-0016cc06f86e"
+                LastKnownName="Creative API"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <part
+            Id="4dcfd740-cbf3-4cde-a8e9-89af36e527f4"
+            name="DomainModel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <targetNamedElementsInternal>
+              <connector
+                Id="32aba812-8236-4f8a-bb6a-b5c6ae83cdcf"
+                isLeaf="false"
+                isStatic="false">
+                <partMoniker
+                  Id="76a4134a-a54c-476c-9e77-d1e9b6df15dd"
+                  LastKnownName="PersistModel"
+                  LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+                <relationshipOwnedElementsInternal>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="f65c0559-eeeb-404e-9f16-49a53e63c46d" />
+                  </connectorHasConnectorEnds>
+                  <connectorHasConnectorEnds>
+                    <connectorEnd
+                      Id="66c858ea-63c4-49a2-9102-d280d322b43d" />
+                  </connectorHasConnectorEnds>
+                </relationshipOwnedElementsInternal>
+              </connector>
+            </targetNamedElementsInternal>
+            <type_NamedElement>
+              <componentMoniker
+                Id="5d353f58-5e04-4355-a2e8-18e4c51809e3"
+                LastKnownName="Component"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+          <part
+            Id="76a4134a-a54c-476c-9e77-d1e9b6df15dd"
+            name="PersistModel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="fed0210e-ffd0-4f68-bdfe-a5047f598baa"
+                LastKnownName="Component"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9cc27e33-e21c-4238-9ce1-0016cc06f86e"
+        name="Creative API"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="5d353f58-5e04-4355-a2e8-18e4c51809e3"
+        name="Component"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="27824cea-67ad-4e44-a2f9-9e81f9c3654c"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="6c53db70-5b71-4c1a-9143-10c7660397c7"
+                LastKnownName="Business logic"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="fed0210e-ffd0-4f68-bdfe-a5047f598baa"
+        name="Component"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="b4e11fa5-92fe-4b08-a056-92d1ddfbc5db"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ba10c41b-99e4-4161-aa74-8575b801099c"
+                LastKnownName="Data access"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="9c3564b4-4caa-4721-ab9a-7036bf56c6fc"
+        name="Onpoint.Core"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ba10c41b-99e4-4161-aa74-8575b801099c"
+        name="Data access"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="6c53db70-5b71-4c1a-9143-10c7660397c7"
+        name="Business logic"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

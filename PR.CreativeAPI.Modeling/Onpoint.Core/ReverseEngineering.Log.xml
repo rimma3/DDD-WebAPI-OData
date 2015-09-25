@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-10-13T11:53:12" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint' -  (Package)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core' -  (Package)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions' -  (Package)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Medium" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PersistException' -  (Class)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PersistException::PersistException' -  (Operation)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PersistException::PersistException::innerException' -  (Parameter)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PersistException::PersistException::message' -  (Parameter)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PointrollException' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::System' -  (Package)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'PR.CreativeAPI.Modeling::System::Exception' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PersistException to PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PointrollException (Generalization)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PointrollException to PR.CreativeAPI.Modeling::System::Exception (Generalization)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::DomainException to PR.CreativeAPI.Modeling::Onpoint::Core::Exceptions::PointrollException (Generalization)" />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-10-13T11:53:13" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

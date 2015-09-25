@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a01a206d-2e43-4f93-b1cc-5f438cc2a4f9"
+  name="PersistModels"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5db85b7a-fa47-403e-8adf-fb756838b908"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPR.CreativeAPI.Domain.PersistModels"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="df6b1efc-52ba-4581-a74e-cd4e21cb5cf4"
+        name="PersistPanel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3f628166-a37c-44aa-9647-3d53104aac75"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.PersistModels Type%3DPersistPanel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="baaa332b-9603-4c99-a8e9-7b478f6149fb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a8732c9-55a6-44ce-b50b-595b301b1ec5">
+                <propertyInstance
+                  Id="925c3267-79b7-4528-a700-a069b93ff63d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="955a11da-108d-49bc-b73e-723adb90bba3">
+                <propertyInstance
+                  Id="7e37b321-de62-4f1b-bacb-ac7c6fcfebb9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf23feb3-b9d8-423e-a1f3-e0c6f73af3e8">
+                <propertyInstance
+                  Id="8848905d-407a-4a41-b73f-77fd352603a0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d47ca8d1-d987-4251-904c-7013c62a44e2">
+                <propertyInstance
+                  Id="a1b328d2-6965-4bf6-bf9c-e9c5088d036c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be3bd6ad-a2f8-4629-b971-2c036735ea58">
+                <propertyInstance
+                  Id="df088c17-1d2a-4a57-ac14-5d988634ed5e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9015f3cb-ba85-4739-b5ac-1be76012e82a"
+        name="PersistCreative"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6163adca-7bae-4800-b926-913951119073"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.PersistModels Type%3DPersistCreative"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bcc49289-d2df-40c9-a57c-b4e9b2b5ed90"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a33030d-b04b-4d4c-af88-9a7f829a0c2e">
+                <propertyInstance
+                  Id="4bbb5237-29c9-480b-9933-1eaebf871560"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83a3ba68-fbec-4d5f-b1dc-a0bc66f1d76e">
+                <propertyInstance
+                  Id="63e8ddfb-3b88-4af3-afbc-6b7abe2ad594"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13e2a715-2165-4fff-8ef6-d77b546b1e9e">
+                <propertyInstance
+                  Id="d7028ad6-6db5-4010-b028-b82c7ae26253"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9fb707f-923c-4205-920f-2017e2c0818f">
+                <propertyInstance
+                  Id="057e8dd6-963e-48a6-a9bd-773f29ee934a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="343bb2c1-be60-4e1c-99f0-1050bb22ad4f">
+                <propertyInstance
+                  Id="aebe9480-7f36-456c-a953-508b45b8002a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

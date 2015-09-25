@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8974016d-e8ec-4495-8100-6cb2add9be7a}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>PR.CreativeAPI.Modeling</Name>
+    <RootNamespace>PR.CreativeAPI.Modeling</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Components.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Components.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Components.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1141.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1145.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1157.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1141.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1145.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1145.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1141.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1145.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1153.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1157.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Onpoint.Core\BaseRepository.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Onpoint.Core\BaseRepository.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Onpoint.Core\BaseRepository.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Onpoint.Core\Exceptions.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Onpoint.Core\Exceptions.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Onpoint.Core\Exceptions.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="CreativeAPI_Data.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CreativeAPI_Data.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>CreativeAPI_Data.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="CreativeAPI_DomainModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CreativeAPI_DomainModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>CreativeAPI_DomainModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package10_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package12_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1123.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\PR.CreativeAPI.Modeling.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Onpoint.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="Layers.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="Layers.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Layers.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="Layers.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>Layers.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreativeWebAPI\CreativeWebAPI.csproj">
+      <Name>CreativeWebAPI</Name>
+      <Project>{8106ddb1-5776-44f8-982b-1bf0e99fe9cd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Onpoint.Core\Onpoint.Core.csproj">
+      <Name>Onpoint.Core</Name>
+      <Project>{5307744d-ddb2-4485-817d-e767903a1e9f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PR.CreativeAPI.Core\PR.CreativeAPI.Core.csproj">
+      <Name>PR.CreativeAPI.Core</Name>
+      <Project>{a4fd15c8-e040-4020-873a-380ed73fa80b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PR.CreativeAPI.Data\PR.CreativeAPI.Data.csproj">
+      <Name>PR.CreativeAPI.Data</Name>
+      <Project>{d649bff8-0d20-47cd-a408-b667c6be42d6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PR.CreativeAPI.DomainServices\PR.CreativeAPI.DomainServices.csproj">
+      <Name>PR.CreativeAPI.DomainServices</Name>
+      <Project>{8d665582-e1e4-478b-86a4-10573d39b1fe}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PR.CreativeAPI.Domain\PR.CreativeAPI.Domain.csproj">
+      <Name>PR.CreativeAPI.Domain</Name>
+      <Project>{45885b06-221b-4145-8a06-e9d6f8ddd66d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\PR.CreativeAPI.Interfaces\PR.CreativeAPI.Interfaces.csproj">
+      <Name>PR.CreativeAPI.Interfaces</Name>
+      <Project>{f30aed5b-e84c-4f11-a541-e84156b7759e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

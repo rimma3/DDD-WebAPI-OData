@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d1c64665-f523-4262-82b9-7776d0512236"
+  name="PanelDomainModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3d1d3959-1861-4f01-a527-b3380adbd1c0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="21142306-810b-44a5-9fd1-9c337c07c3ac"
+        name="Panel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a3f10ccb-2eb5-49e6-a35a-3a7e2501f9e0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="38188bd8-420c-4457-b416-2199bf82de53"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53d7427b-df13-45cb-ae32-11df963cb624">
+                <propertyInstance
+                  Id="6746fc49-409b-45df-acf6-d907db306013"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b79156a-1b5e-430c-a1c9-8791b41ca78a">
+                <propertyInstance
+                  Id="fab47a4f-206c-4684-aa64-bcdd315fe210"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07963ee1-e2f1-4258-84db-6bff4ee40a36">
+                <propertyInstance
+                  Id="d9154790-8c45-4238-8d08-0463a40c138a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44652bc5-e90b-451e-a3a4-e8b521a44cb7">
+                <propertyInstance
+                  Id="0b44ffb0-de02-4134-9775-303f6c4bbc3c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="393cc680-a1b7-4ae9-af8f-fe593d47ccd4">
+                <propertyInstance
+                  Id="7ebe49ac-28b3-4a04-93d9-3a70d51f3466"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="9184b2a3-1a86-4556-9486-a65713247407">
+            <interfaceMoniker
+              Id="36e997b4-d354-4f72-8560-1d433454d43d"
+              LastKnownName="IAggregateRoot"
+              LastKnownLocation="Package8_1123.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="5803b03d-de02-4830-bc9d-85ec13c24099"
+            isSubstitutable="false">
+            <classMoniker
+              Id="29b7f6b9-2b79-403a-b221-1947a8ad3e15"
+              LastKnownName="CreativeBaseEntity&lt;PersistPanel‎&gt;"
+              LastKnownLocation="Package3_1123.uml" />
+          </generalization>
+          <generalization
+            Id="1440a227-2c49-4013-8e4f-f33f0c748472"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0756eb7e-3a23-4505-b292-08532f15562d"
+              LastKnownName="CreativeBaseEntity"
+              LastKnownLocation="Package3_1123.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="a320b6c9-5c2c-4d5b-980f-12131cf65a9b"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a6591272-fd24-4378-9dc9-6c71dbbf96b5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1df6c97a-3224-45ec-bfd6-3f27316a66bf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf554097-0371-4526-9ea3-6a47375736da">
+                    <propertyInstance
+                      Id="5bee63d2-9005-459a-b5ce-07b8546264bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b1ffa8c-391a-4606-8228-01dd3a7d87b6">
+                    <propertyInstance
+                      Id="c2eb0a04-3a17-4990-b22e-ee68be37268b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7e28df1-fcbe-49e2-be1c-3fde2db231fb">
+                    <propertyInstance
+                      Id="e736dbfe-63a4-40c5-bab8-80a31451d062"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d0b294b-4061-481b-98b7-1eb9dc840601">
+                    <propertyInstance
+                      Id="398fb5b7-7ffb-40a8-8439-751f7b14a67b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17a48bbe-f755-404f-a329-a8887bcb56ca">
+                    <propertyInstance
+                      Id="1c7639a3-0fb0-4946-a16f-0e6f3c930be5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="009cebf3-f8ee-4459-9f90-bf49daf85095">
+                    <propertyInstance
+                      Id="844fff78-21d8-47f6-81f2-634091d2e7f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b784c255-f007-47a0-b347-49fc782adef4">
+                    <propertyInstance
+                      Id="221e67cd-7b08-4aaa-857d-54f94de41c7f"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="136b9fdf-a183-40d1-9180-0885ec84e02a"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="70d49c7f-8dc2-4e09-b2eb-b6231dbc3dec"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="730dca20-6147-4982-b8b7-75a21033d0b7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b8020d9-4166-421c-a189-46a11c625bf0">
+                    <propertyInstance
+                      Id="b9af33c0-0d33-4e52-8d95-cbef0c3f4a97"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="885e3adb-852c-4a99-8100-d1b58b9e34fa">
+                    <propertyInstance
+                      Id="965bdd60-f03c-4003-9e9f-ec11be35ea7f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51369635-ff97-4d5b-9518-530fbbb35a3e">
+                    <propertyInstance
+                      Id="5da271da-e945-4cf6-99d6-1023e228e778"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca6103ac-695f-4611-a55f-a0c6a2f1a65c">
+                    <propertyInstance
+                      Id="ece281d0-ab94-4a3c-85e8-103ae8723da8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5db1b9a5-e4b9-4406-b9f0-76e0f3aa3222">
+                    <propertyInstance
+                      Id="b25768db-a9ae-4c0f-9771-ed858ee1b930"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69d64e54-7c40-4f2e-926f-24c6bd3cdf67">
+                    <propertyInstance
+                      Id="42246a02-9ded-498e-887e-aa447781e19d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d2a70f9-0707-4af6-acb0-46874cb81c84">
+                    <propertyInstance
+                      Id="2bfbb336-3c38-44ab-bc64-7eb47899df19"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c07bcc18-1048-4fe7-a1be-f76eb23842ce"
+            name="AdvertiserId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b28992e3-9594-4976-b1f4-740729d1765a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel Member%3DAdvertiserId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9c0068f-b02f-486e-bc77-02bff285c73a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97a99712-e0e9-4e7c-bfd0-58ba6d13af65">
+                    <propertyInstance
+                      Id="047c8b32-d2dc-40bf-bb9c-0d1d5a68aca0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1053af3e-cb4d-410b-9ce1-f16a0afdcd54">
+                    <propertyInstance
+                      Id="77758b2c-8214-4541-815e-3391e8fc0b73"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ba526cb-931b-4527-a59c-d2c549ccc89e">
+                    <propertyInstance
+                      Id="46fadd1c-bf8f-4819-bca8-605bddfc9d2b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="190f7120-fc0b-4fbc-82a4-0a6ae7c53d3a">
+                    <propertyInstance
+                      Id="40796714-dadd-41da-a3b7-037606d00afc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0bf6b44-ea76-4597-a6d4-de80e8ab3da2">
+                    <propertyInstance
+                      Id="c015bcf6-b3a6-46d2-b654-cd67651ba4a5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fa3dc3b-1d1e-4fa6-9796-a4108ef7b8ce">
+                    <propertyInstance
+                      Id="920f6593-8e9b-4e5b-ba97-be08525b5e45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da3d30fb-545c-44c3-ba64-ece81fd5c720">
+                    <propertyInstance
+                      Id="d6c4c86c-ffec-45e8-941e-ee43b2b6858b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="PR.CreativeAPI.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4a0f0fd7-ec74-4331-a9af-e4ed6926618b"
+            name="Panel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99f4868a-2202-498e-bfea-218524b58b15"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.PersistModels Type%3DPersistPanel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f1edea2-0eff-4ec7-a94e-b18ad26de27b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bece4a31-134a-44fd-bdd2-ada9d835c6ff">
+                    <propertyInstance
+                      Id="e77d0a7f-724c-4077-b82f-993524241936"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a2a306-3615-4121-809d-96d7c68fbb20">
+                    <propertyInstance
+                      Id="3bd20d09-8cf3-4812-9e84-6d3f299a1f38"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bb5fe1a-7c22-46db-9da0-7829bc90b1e0">
+                    <propertyInstance
+                      Id="cbb28e81-051c-4de4-8fc0-bef79d007a65"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9422856a-98c5-4c3d-8158-b5b131f568b3">
+                    <propertyInstance
+                      Id="7c1e1155-dbd7-4d03-82d1-42fc307952b3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22839726-eefb-41a2-8eb7-76f6fa82bfc7">
+                    <propertyInstance
+                      Id="ce69077e-21f9-4dbb-b03d-183e89ba4974"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90f55ed6-a082-477e-bd00-bd9e77f8092a">
+                    <propertyInstance
+                      Id="854e1758-70ef-433f-b868-63e718ad7b25"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ebe9abf-cf22-4652-914d-6b88fdbc4f75"
+                  name="state"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d27f2a44-9001-4e80-895d-5d1034ff1fff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.DomainModels.PanelDomainModel Type%3DPanel Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FPR.CreativeAPI.Domain%2Fbin%2FDebug%2FCreative.Domain.dll Namespace%3DPR.CreativeAPI.Domain.PersistModels Type%3DPersistPanel)]) ParameterIdentifier%3Dstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="df6b1efc-52ba-4581-a74e-cd4e21cb5cf4"
+                      LastKnownName="PersistPanel"
+                      LastKnownLocation="Package5_1123.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

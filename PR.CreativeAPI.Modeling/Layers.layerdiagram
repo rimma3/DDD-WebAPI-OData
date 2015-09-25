@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="07a6ad7b-7d27-480e-8fdd-4d8e5f429154" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="1849534f-5d81-4aca-b1e0-411f0df46543" name="Core">
+      <childLayers>
+        <layer Id="f17cbec0-54b9-455f-9250-ccd4050a5bcc" name="Onpoint.Core">
+          <references>
+            <reference Id="4da3bfad-80d3-4b37-8d89-ad11653d6501" name="Onpoint.Core">
+              <ArtifactNode Label="Onpoint.Core" Category="CodeSchema_Project" Id="(Assembly=../Onpoint.Core/Onpoint.Core.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Onpoint.Core)" Label="Onpoint.Core.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="2f267669-3f73-4ece-a8b8-2d5c0fae7108" name="PR.CreativeAPI.Core">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="963627ba-6e31-454a-a27c-e7bee07b25a0" direction="Forward">
+              <layerMoniker Id="f17cbec0-54b9-455f-9250-ccd4050a5bcc" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="76bd046a-9be1-4867-9972-9baed564928e" name="PR.CreativeAPI.Core">
+              <ArtifactNode Label="PR.CreativeAPI.Core" Category="CodeSchema_Project" Id="(Assembly=../PR.CreativeAPI.Core/PR.CreativeAPI.Core.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=PR.CreativeAPI.Core)" Label="PR.CreativeAPI.Core.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="0028e9eb-5235-4571-ae92-efd4a53a482e" name="PR.CreativeAPI.Domain">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="8549263e-7157-4ef8-8b81-b1931e80e933" direction="Forward">
+              <layerMoniker Id="f17cbec0-54b9-455f-9250-ccd4050a5bcc" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="799e7d25-a4a4-4444-8543-26afca321b63" direction="Forward">
+              <layerMoniker Id="2f267669-3f73-4ece-a8b8-2d5c0fae7108" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="424a16ac-b68f-42c2-bab5-d027b4f7c77c" name="PR.CreativeAPI.Domain">
+              <ArtifactNode Label="PR.CreativeAPI.Domain" Category="CodeSchema_Project" Id="(Assembly=../PR.CreativeAPI.Domain/PR.CreativeAPI.Domain.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Creative.Domain)" Label="Creative.Domain.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="7e28a365-fc16-49c4-8e39-0b82048483fe" name="Infrastructure">
+      <childLayers>
+        <layer Id="3b6035b2-5e02-4b33-bd7e-d88d18ed0d72" name="PR.CreativeAPI.DomainServices">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="b3244cd9-23b3-4753-9097-b7f1b10e1583" direction="Forward">
+              <layerMoniker Id="1849534f-5d81-4aca-b1e0-411f0df46543" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="201993ce-a2f3-459b-891d-1288f4ea1264" direction="Forward">
+              <layerMoniker Id="e524673e-226d-4c3b-9fd1-88e6410281d7" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="65720c3a-6fd0-43a4-803f-3909b3efaba7" direction="Forward">
+              <layerMoniker Id="6a2a7355-f1b1-4df6-922e-fc711f427f6e" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="f76f62ea-1be1-4a85-97b8-36d830860000" name="PR.CreativeAPI.DomainServices">
+              <ArtifactNode Label="PR.CreativeAPI.DomainServices" Category="CodeSchema_Project" Id="(Assembly=../PR.CreativeAPI.DomainServices/PR.CreativeAPI.DomainServices.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=PR.CreativeAPI.DomainServices)" Label="PR.CreativeAPI.DomainServices.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="6a2a7355-f1b1-4df6-922e-fc711f427f6e" name="PR.CreativeAPI.Interfaces">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="af44de13-f86c-4595-bd06-d19cc6dc2c5d" direction="Forward">
+              <layerMoniker Id="1849534f-5d81-4aca-b1e0-411f0df46543" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="594b4015-b331-46fd-942a-4e61db793fb2" name="PR.CreativeAPI.Interfaces">
+              <ArtifactNode Label="PR.CreativeAPI.Interfaces" Category="CodeSchema_Project" Id="(Assembly=../PR.CreativeAPI.Interfaces/PR.CreativeAPI.Interfaces.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=PR.CreativeAPI.Facades)" Label="PR.CreativeAPI.Facades.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="e524673e-226d-4c3b-9fd1-88e6410281d7" name="PR.CreativeAPI.Data">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="9b5a1395-e020-4f5d-b918-518f69e3ec5e" direction="Forward">
+              <layerMoniker Id="1849534f-5d81-4aca-b1e0-411f0df46543" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="2d876a76-05d2-4d5e-bd04-42ef244ee500" name="PR.CreativeAPI.Data">
+              <ArtifactNode Label="PR.CreativeAPI.Data" Category="CodeSchema_Project" Id="(Assembly=../PR.CreativeAPI.Data/PR.CreativeAPI.Data.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=PR.CreativeAPI.Data)" Label="PR.CreativeAPI.Data.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="fab323e5-ee16-4186-bf3b-879974b6d4a6" name="Presentation layer">
+      <childLayers>
+        <layer Id="dc806fb0-312f-4942-98aa-c1a871bfa1d2" name="CreativeWebAPI">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="e37fa43f-3089-4f0b-b079-00a478826c65" direction="Forward">
+              <layerMoniker Id="7e28a365-fc16-49c4-8e39-0b82048483fe" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="18663537-f8d3-414d-8053-c4b1844cde82" direction="Forward">
+              <layerMoniker Id="1849534f-5d81-4aca-b1e0-411f0df46543" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="57fbab2f-a5f0-48b6-ab0e-d4e691594521" name="CreativeWebAPI">
+              <ArtifactNode Label="CreativeWebAPI" Category="CodeSchema_Project" Id="(Assembly=../CreativeWebAPI/CreativeWebAPI.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=CreativeWebAPI)" Label="CreativeWebAPI.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+      <references>
+        <reference Id="581e9238-02dc-4f53-9965-fdaf86b1f21d" name="CreativeWebAPI">
+          <ArtifactNode Label="CreativeWebAPI" Category="CodeSchema_Project" Id="(Assembly=../CreativeWebAPI/CreativeWebAPI.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=CreativeWebAPI)" Label="CreativeWebAPI.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

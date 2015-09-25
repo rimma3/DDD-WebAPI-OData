@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7a55e163-ad9b-4356-a7e6-367cb26c2dd5"
+  name="Core"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2e7d8aab-80da-4403-a4ae-5fdcffdb1d20"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DOnpoint.Core"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="838f3b06-3dcd-4355-8ac2-9d4c5f1d6a1b"
+        LastKnownName="Domain"
+        LastKnownLocation="Package8_1123.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="deb22f49-ea54-487f-96b0-d45a5fa84f0f"
+        LastKnownName="Data"
+        LastKnownLocation="Package_1141.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f1ec5f18-7828-4ab3-96bd-672efb767d50"
+        LastKnownName="Specifications"
+        LastKnownLocation="Package1_1145.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="23a162d1-1737-4dfd-88ef-61297e72c0eb"
+        LastKnownName="Exceptions"
+        LastKnownLocation="Package_1153.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

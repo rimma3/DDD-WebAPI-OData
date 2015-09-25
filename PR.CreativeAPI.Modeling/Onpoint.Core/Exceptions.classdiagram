@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="fc53240d-f20d-45d8-9535-e273b9f67a11" name="UMLClassDiagram1" linkedPackageId="ce8c65a6-eb2d-4118-8150-fe27a22bdaa5" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="05b4d081-6ee5-4cf5-ae64-ae8e82e32546">
+      <profileInstance Id="eadad0b5-47dd-4649-a7e9-b83a07f2154a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2972daf8-3374-49b8-9af7-90169c6c8a25">
+      <profileInstance Id="8a5240f8-d342-442f-8531-846eda1659bd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="174cf48f-5fb4-4e5a-8737-7015adb04ea9">
+      <profileInstance Id="7565f4c9-b463-4d15-8d04-760308d198b3" name="CSharpProfile">
+        <elementDefinition Id="63f13e2c-ccb1-4491-90d7-e77f95ff587a" />
+      </profileInstance>
+      <elementDefinition Id="e2114105-1454-4b3b-afb8-2fd561819666" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5c9c8ede-bda7-4926-b9bd-f6c4a97ba573" name="DomainException" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="b8341251-defd-4b3b-9ad4-baad854b86c0" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException" tag="ViewCode">
+            <elementDefinition Id="3cd8ef4c-77f0-4f79-a1a6-395b136b6bef" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="af47adc8-afc6-41a2-bf0e-7fdf4a654bc9" name="class" profile="CSharpProfile">
+            <elementDefinition Id="9068da97-9acc-49a6-be5e-af078989759a" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="17816ca5-f78a-4d5f-aeec-109440659175">
+                <propertyInstance Id="b85c098a-2ace-4ff0-ae30-aa2b488068a4" name="ClrAttributes">
+                  <elementDefinition Id="7ac7147a-5a60-46c3-9da6-39dbffd94adb" />
+                </propertyInstance>
+                <elementDefinition Id="389b055a-a43f-4164-8200-4e1a6de22ca8" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9a61da6d-5d25-4cae-a8a5-5012a1d20511">
+                <propertyInstance Id="be2e9a83-3c7a-486d-adc5-381b49cb78fb" name="IsPartial" value="false">
+                  <elementDefinition Id="a8dd786a-aa27-494f-a54d-bc6be11f8422" />
+                </propertyInstance>
+                <elementDefinition Id="7bbd52e8-78d9-4eca-a4b2-5b32094ca530" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="be276a59-e8af-4bdb-af38-9db8d43d40b0">
+                <propertyInstance Id="e6f57431-c26c-45cb-9943-06c62a986cc2" name="IsStatic" value="False">
+                  <elementDefinition Id="1069eef7-4a7e-471b-969a-975de64827ec" />
+                </propertyInstance>
+                <elementDefinition Id="cfef4d3a-8edd-42cb-a6bc-7eb06add18e6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4cfc1ef5-eedb-4a05-8a17-6fda53f7ccda">
+                <propertyInstance Id="6bfc6679-59d3-4ea8-b5ce-6d9935cced7a" name="IsUnsafe" value="false">
+                  <elementDefinition Id="3f7a39e9-2876-4dd7-8bd1-8b8ff071a6bf" />
+                </propertyInstance>
+                <elementDefinition Id="bac1689f-f3c1-4a27-8052-cdd6b8d2bd16" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9a199610-2690-4f90-aed6-d01078f6aa72">
+                <propertyInstance Id="c8b8457a-0d18-4ea1-94a2-38d35d170e2b" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="19620901-d20a-47ef-a1d3-f13fda56213b" />
+                </propertyInstance>
+                <elementDefinition Id="a72f53d4-a3cb-49e1-b784-cf6bb90f66ba" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="5b323b7f-765b-482c-b5c4-72295faa9a10" />
+        <generalsInternal>
+          <generalization Id="57ded994-744a-4480-a2d6-78d12c70eae9" isSubstitutable="false">
+            <classMoniker Id="5bf95ee6-355d-4afa-b1a2-42affb6c3281" LastKnownName="PointrollException" />
+            <elementDefinition Id="33f3e28f-c47b-40a5-b521-b348c78f0a2b" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="a6257287-88c0-4357-90c8-04a44a40b550" name="DomainException" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b6f7d34c-caac-4b9b-bb9b-e4a04c8c9e65" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="3016da94-d691-4264-a12b-232081ef3a17" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a5cbcc74-39ae-4542-aaf5-78b8f2d8110f" name="method" profile="CSharpProfile">
+                <elementDefinition Id="9e4feb98-35b0-485b-a49d-7b463f626a1a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9a76a92c-4031-4969-b629-495b4c05567e">
+                    <propertyInstance Id="10ebe1d2-05ad-40fb-a62f-f8528759509f" name="ClrAttributes">
+                      <elementDefinition Id="d60bfc0e-f6d9-482c-9638-a44778a0ad48" />
+                    </propertyInstance>
+                    <elementDefinition Id="f2d31e88-26e1-4d13-a381-414907dd69db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c01647bf-e0bb-4a1c-9234-9442b80d7862">
+                    <propertyInstance Id="68c7776e-c5bb-4e93-937c-f86f610ddb90" name="IsPartial" value="false">
+                      <elementDefinition Id="ab662604-c827-4d05-9906-3e15ecdb3ec9" />
+                    </propertyInstance>
+                    <elementDefinition Id="545f8272-91f8-411a-91f5-be0a80632b9c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cbcc3b97-180c-481a-af82-5c5eade7b996">
+                    <propertyInstance Id="ee6d4aea-0f55-4241-8713-ccf43a627dd4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ee38aaed-c56c-4b51-97ab-806b57a113bc" />
+                    </propertyInstance>
+                    <elementDefinition Id="99705429-a3ca-462b-84b4-3bee7aa45f5a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="02d8cfc7-18b5-4c86-8dba-53563b949c35">
+                    <propertyInstance Id="578b41b3-1889-495b-ab2f-94b9787adba7" name="Inheritance" value="none">
+                      <elementDefinition Id="97f8eba2-c683-4ef0-a91a-9b30b6f40c77" />
+                    </propertyInstance>
+                    <elementDefinition Id="93e6a5fa-5e5e-4040-8ec6-b4ae51b60fd8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1c4ba64f-8be0-4a1c-904a-9aeef553bba3">
+                    <propertyInstance Id="c3389c02-5844-4a9e-90a7-41e05fbd23e6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e7eb395b-6ef1-40f0-b625-f827d3fd80db" />
+                    </propertyInstance>
+                    <elementDefinition Id="03fdf6cf-0ad8-4b68-bbeb-473f20edd700" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="75ea9368-b00c-4538-b113-c35b5cf83ead">
+                    <propertyInstance Id="e304684d-71b4-47f8-a5c1-b00ea1220e72" name="params" value="false">
+                      <elementDefinition Id="87d8804b-10b2-40c5-b83a-1795e7806252" />
+                    </propertyInstance>
+                    <elementDefinition Id="87851a42-c674-44f6-bb33-c6fa06a7c73f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e8c4bdb8-76ad-4082-9b26-1e346ead0900" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f76d1cc7-17ed-46df-b93c-dead362bfdc2" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="75309b09-d134-45d8-aa2e-8e9fd890b29d" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="044aa510-e8df-49c2-9e0e-01392b7b2bf2" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f6d37ef1-0173-41de-887d-8f42d84e02a7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="808aea7c-0682-49c0-b35d-92bdee7739ca" name="DomainException" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="141d7270-8647-4602-a714-d0c1151e2365" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])" tag="ViewCode">
+                <elementDefinition Id="c16740ae-d04d-44fd-a474-5351ffed2fbc" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="8e05b5dc-6585-4ac9-9654-95d19e6e1c84" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6a68d6b0-64f5-4c82-8b9e-186cebcd7c64" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7c8de4e8-dd94-4a8a-afc5-11dbbb19f4f4">
+                    <propertyInstance Id="fe4b4806-ab58-4676-8685-47b9df9c7c1d" name="ClrAttributes">
+                      <elementDefinition Id="83e5bc06-f728-4c0d-89c8-5c62f942b1de" />
+                    </propertyInstance>
+                    <elementDefinition Id="eeeb1721-0307-4bb6-90e5-f0eff3d525c8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a1fc23d-1d7c-4e30-8f8f-d44b4e49cd11">
+                    <propertyInstance Id="b47bc708-ce05-4ae7-94b2-bdb329935475" name="IsPartial" value="false">
+                      <elementDefinition Id="bee3ce2e-e136-41d5-945f-edb2c970c18b" />
+                    </propertyInstance>
+                    <elementDefinition Id="d2e4eda2-cf64-4da4-a58f-29b4ebbec260" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="46b849ff-dc00-4ffc-9435-6cac7785408b">
+                    <propertyInstance Id="85ada657-76bd-4bf7-b160-6d3b649d03d3" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5c8368e2-88a8-4858-921e-cd424608e553" />
+                    </propertyInstance>
+                    <elementDefinition Id="0fc107ff-442c-4265-a913-219843b38e38" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="436d52c1-e4b2-47e4-b342-98f6deea82cc">
+                    <propertyInstance Id="f609ce8d-6f40-4137-a9a3-c7d7f73223af" name="Inheritance" value="none">
+                      <elementDefinition Id="485931dd-b64d-49a4-9013-4503728c0d6f" />
+                    </propertyInstance>
+                    <elementDefinition Id="7dc3aba8-0cc4-409a-90af-04ab06b2ae0f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bff4eae1-00ba-4031-b1ce-ec6784a0e171">
+                    <propertyInstance Id="7401c45d-c303-4553-8fa6-243472e085b6" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="85ae1cb2-d6ca-4e6d-9327-954cee374f2e" />
+                    </propertyInstance>
+                    <elementDefinition Id="ed218bf1-eb43-4eb5-814a-68262dd123f5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb9a0b83-e48c-423a-82c5-437bcbe7e283">
+                    <propertyInstance Id="675a3ccb-08f4-4070-bdd5-4a45db4b8335" name="params" value="false">
+                      <elementDefinition Id="3176ef3e-9515-4c25-ab10-4a3b974b9c5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="e2a2b6fc-3098-4e56-9c67-3a2239c867e9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2a1e6548-4334-4f2c-b69c-d6936b553915" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8fcd411a-98d7-4432-acde-e8561b577cde" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="9261c89c-09b2-40e2-853f-34de7ca3119b" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="f6a4d581-b8ec-4413-949b-4e74c9fcd84c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a75c4613-021c-40e0-90b5-53bcc1ef06a1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="947b3f2f-2057-4a30-9c78-3da4c4b30ab1" name="innerException" direction="In">
+                  <referencesInternal>
+                    <reference Id="068cc241-0cae-4cdf-bb8b-10793caee17b" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DDomainException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DinnerException" tag="ViewCode">
+                      <elementDefinition Id="6132159d-dd5f-40ee-9519-81df74690bf6" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="6090ca37-34d4-43ab-940c-5ab5feea3c9b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="95178dba-3b33-4675-b621-4e5c318410f7" LastKnownName="Exception" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="95178dba-3b33-4675-b621-4e5c318410f7" name="Exception" isAbstract="false" isLeaf="false" cachedFullName="PR.CreativeAPI.Modeling::System::Exception">
+        <elementDefinition Id="9aaf1a89-64db-45c7-aa35-c87b720ecc32" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5bf95ee6-355d-4afa-b1a2-42affb6c3281" name="PointrollException" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="58ab0976-8f65-4e96-b82e-44e56fbfb4f7" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException" tag="ViewCode">
+            <elementDefinition Id="1ccc0e3f-6454-49bd-b16c-947ec79a10b3" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="78d4b9b2-81a0-4520-b491-9d0565068e27" name="class" profile="CSharpProfile">
+            <elementDefinition Id="e51fc5eb-93ca-4253-8cdb-866cc2675774" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9653aa72-87ad-42c4-bdd1-e0571c4d2afa">
+                <propertyInstance Id="3fc5b5f3-baaa-46da-9172-5c0c907bb63c" name="ClrAttributes">
+                  <elementDefinition Id="ed7e6145-0e28-42fa-b952-a1f07ae93244" />
+                </propertyInstance>
+                <elementDefinition Id="4031ec10-a740-4e6c-b5d3-72e8a9a41acb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3e8eaa78-fac0-417e-bd4d-eda6bfdd3b2f">
+                <propertyInstance Id="a8924079-7e69-4477-8127-4ef2bd23a7e1" name="IsPartial" value="false">
+                  <elementDefinition Id="d60e93a7-5991-4624-a14e-0dbd5a493d28" />
+                </propertyInstance>
+                <elementDefinition Id="1fdc4a45-5c00-4250-ba09-99fa0629cb9b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="615edbca-cab0-4880-af6b-ea912a10c6ca">
+                <propertyInstance Id="4b581a63-14ec-408c-a216-55c2e1c9b7f1" name="IsStatic" value="False">
+                  <elementDefinition Id="874d59a5-24aa-4c7c-8576-f0c91226a4e0" />
+                </propertyInstance>
+                <elementDefinition Id="671f66da-5dd6-46d9-b74e-d6dcb2f2eaeb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c3df36d0-15d1-4457-b35e-2a37fd5b9a1f">
+                <propertyInstance Id="d21dde5f-49c9-47ab-b156-a5258c7bb7f9" name="IsUnsafe" value="false">
+                  <elementDefinition Id="6029a112-9657-4a1b-beb0-29510f41c9fe" />
+                </propertyInstance>
+                <elementDefinition Id="e0fe66ce-7962-44b1-83a1-c7b694980862" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5d81067b-5995-4b29-99d6-dff6b17455b5">
+                <propertyInstance Id="aef096bb-6a2a-408c-ae9e-484e4ac401ad" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="52c51b7c-7502-4872-aac2-485daf536646" />
+                </propertyInstance>
+                <elementDefinition Id="b0da2006-8728-428b-bef1-a6ad3a76e20f" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="a0e27e8e-492e-4f19-b5c5-72e52f917fc2" />
+        <ownedOperationsInternal>
+          <operation Id="cb634f1b-91c2-49a0-b87f-0e5df779363d" name="PointrollException" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e9fcd347-f707-4864-a3cb-a642328c5605" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="cbee6e22-df5b-4b7a-b5ae-279e54606fa6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="7e873b99-9600-453e-b3bf-91f363c06aca" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c980f077-2214-4348-a630-ef45db24b3a7" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="de6cef07-fb58-49ce-a215-ef3b721d67fa">
+                    <propertyInstance Id="a8fb0573-c6bd-4394-b417-8e6e8782e373" name="ClrAttributes">
+                      <elementDefinition Id="ee8b8324-bcec-49ef-989f-de3dc2b0e9f2" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ecf5bc0-c30b-4d08-b86d-5fd2102a04ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9e578daa-53d2-4f8a-bcc2-8e6eeddd9e13">
+                    <propertyInstance Id="ec442334-a2d5-4af4-91d8-42acdb887db0" name="IsPartial" value="false">
+                      <elementDefinition Id="bf173d4d-fbbe-4a26-a6dd-0e582c17a8f4" />
+                    </propertyInstance>
+                    <elementDefinition Id="93b120a8-68b7-48f5-b462-3cacc355f831" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0f1391c2-ac7c-4532-b172-ddd90e9a5849">
+                    <propertyInstance Id="de30fb85-428c-4975-a37e-98bd608682f1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="cc2bccdb-2e09-4e4f-aa47-332b527c5592" />
+                    </propertyInstance>
+                    <elementDefinition Id="ecf162fe-5bae-48c9-8b70-d7461632aec4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b32de487-b3b0-47d8-9e49-189d0fc7e412">
+                    <propertyInstance Id="f7690824-8547-4ab3-a1f8-5a5822a4c1d3" name="Inheritance" value="none">
+                      <elementDefinition Id="e22b3091-c5c0-4a72-a07e-c1e5dca6d62a" />
+                    </propertyInstance>
+                    <elementDefinition Id="5a3dae00-e7bd-4179-95d1-984885f77c10" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="876597ca-0a87-4633-8af6-5c9014064210">
+                    <propertyInstance Id="631218f3-ba30-480e-ada3-eceeaecab9b4" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="732f2bad-baae-4c31-b6b4-00cef6a5073a" />
+                    </propertyInstance>
+                    <elementDefinition Id="153c6b06-3e35-4dd4-8ad4-01b4092dcba2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6d50f214-c02b-4015-9e9b-7de26135fe3f">
+                    <propertyInstance Id="a8396ac6-5bc0-458a-976b-6093182f06f6" name="params" value="false">
+                      <elementDefinition Id="be9ee9f6-60e3-492d-86b4-153aac56fc5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="2abd7766-1274-4d54-9446-711d9f382696" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8de3ade6-eb39-424a-a6c7-ec547d7205ef" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="063545b6-d1b3-403c-a9cf-942540717d68" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="e51e454f-cb99-4dc8-9818-76fbcdeb57af" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="c9ed7a70-adc2-408f-b681-8b85a691c63c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="712c0c57-2b8d-4939-a1ad-7b72ba2f9c73" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="058a1be4-e87e-4ce4-975e-86f840cc2642" name="PointrollException" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="407787c0-ba2a-4350-b591-61c340bc8df9" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])" tag="ViewCode">
+                <elementDefinition Id="97e5995e-bd1e-4e78-b854-90853c7fac74" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a22cf61b-dc02-4481-9b8c-c0710d0e49db" name="method" profile="CSharpProfile">
+                <elementDefinition Id="925ea629-bf47-489a-aecc-3529ee46ff28" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1f5e8a86-c7ed-4bc9-9f9f-354a535d7ad6">
+                    <propertyInstance Id="d8a4cbdd-325b-4a65-a948-2cf60bb3cafd" name="ClrAttributes">
+                      <elementDefinition Id="4d9e5623-7039-453a-abe3-d1cb78a8cb73" />
+                    </propertyInstance>
+                    <elementDefinition Id="e4382951-e5e2-4a0a-ab37-b91aca34e4db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="62d88194-5237-4b53-9a76-1a1231c2a0fe">
+                    <propertyInstance Id="50223a0a-10ca-4759-b453-7e4d62a2aeea" name="IsPartial" value="false">
+                      <elementDefinition Id="29dcc54c-3d25-4ec5-be87-34140a993753" />
+                    </propertyInstance>
+                    <elementDefinition Id="56df6299-274c-4806-8164-f2eae955dbf1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb5160d6-2796-4eb0-a36f-cdcbadece2a6">
+                    <propertyInstance Id="a3195b85-c6e2-4601-b0b2-83ed3fdf3137" name="IsUnsafe" value="false">
+                      <elementDefinition Id="d5a6249d-e3eb-4d6d-a5af-6e38234862a7" />
+                    </propertyInstance>
+                    <elementDefinition Id="7ff4ac2c-b88b-4d92-9ff3-a8f86379d6d6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a4cc08d1-f9e5-436b-9c08-886f88174150">
+                    <propertyInstance Id="35c01c4f-df82-4c53-8d68-64bf939b19ca" name="Inheritance" value="none">
+                      <elementDefinition Id="3eb3550b-5556-4f5b-88ac-755bda9b0241" />
+                    </propertyInstance>
+                    <elementDefinition Id="29481e0a-2162-4440-8e56-93579cf5a7d8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cf6fb450-7832-426f-8856-12badcdcec59">
+                    <propertyInstance Id="aefe0f63-d1f6-48a1-b0fd-585a6abf922b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="81ea0952-1fef-446e-9b4b-4b7c862abd9a" />
+                    </propertyInstance>
+                    <elementDefinition Id="7bc00159-b242-4aa9-8e77-e1994a42591f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f9a89844-1093-42e4-9234-f905b8eef810">
+                    <propertyInstance Id="2c665166-2a42-4553-a270-5db0864c1100" name="params" value="false">
+                      <elementDefinition Id="b6b6697e-31e4-401f-9341-8d718b7bc54c" />
+                    </propertyInstance>
+                    <elementDefinition Id="7a0ff621-b22d-45e3-8400-0181af33dc82" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5a65af69-a1c2-453f-a36d-d84da79e96b9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a03e8a06-5c47-4f92-b512-2a7c481d7e67" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="ce5ca802-48d3-4461-941f-2ae117977be7" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="8c984400-5191-4bf9-9725-931ad4c98379" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="28d834dc-67d8-4519-af40-0bb17854e9e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7b3226ff-344e-4b0c-aef9-c6e283fe137b" name="innerException" direction="In">
+                  <referencesInternal>
+                    <reference Id="ed7e5c3c-8f72-4a04-9fd0-650f9af2f7ab" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPointrollException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DinnerException" tag="ViewCode">
+                      <elementDefinition Id="62548b36-c28a-4c06-81b6-2a0c4dd7633c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b4052314-7f85-4e8e-bc80-411d02418255" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="95178dba-3b33-4675-b621-4e5c318410f7" LastKnownName="Exception" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e2dff78b-5148-4905-93ba-9a586a16ae01" name="PersistException" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="e2a83aca-51bc-437b-bfb7-15d3b30d932a" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException" tag="ViewCode">
+            <elementDefinition Id="d8c1c18d-1df9-41fb-924b-e86e6af3b1a8" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="10a1e906-7c89-4a4b-858a-1a5375ffefcf" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c8b250ef-143a-4c4c-8a12-c190a959e6da" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9d7fbc9e-040a-4d4f-9883-bdf36046f942">
+                <propertyInstance Id="974f6d22-1d63-44d4-aa64-f27e2f927d4c" name="ClrAttributes">
+                  <elementDefinition Id="e904c3be-634b-47de-acc7-95910fd9e6d2" />
+                </propertyInstance>
+                <elementDefinition Id="e81a2508-81c9-4901-b44e-dcba1aa5c23e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5376f77d-79ed-4bd5-8a09-61a9b68ceff8">
+                <propertyInstance Id="ab899139-1a51-4738-ac00-ee9dfb5003d9" name="IsPartial" value="false">
+                  <elementDefinition Id="de55c36f-343f-41fc-b63b-5c02f26aaafe" />
+                </propertyInstance>
+                <elementDefinition Id="0c8be542-be3f-4ccd-b9a8-12ceb6b5a06d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="345cbf6b-f6c4-4de0-a1a9-598736e021cc">
+                <propertyInstance Id="424bcd30-45c6-4cfc-b739-44810ce7f476" name="IsStatic" value="False">
+                  <elementDefinition Id="82d0d8ee-7da9-4c3b-a045-18cdf899829d" />
+                </propertyInstance>
+                <elementDefinition Id="d90862d9-1d5d-454c-b248-c9cd1123546b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fed961cd-b891-4145-96d9-0d98536e7eec">
+                <propertyInstance Id="92e58892-f2d7-4545-b3c8-9338256d4ac2" name="IsUnsafe" value="false">
+                  <elementDefinition Id="6636e0fd-898c-407a-8d26-638d51138587" />
+                </propertyInstance>
+                <elementDefinition Id="a45335c2-dfa1-4f11-8b57-2bb0f78bcf61" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ad0b57ba-4dad-4583-841a-f31956cb7e60">
+                <propertyInstance Id="6e104da9-ac53-406d-808c-fc3e21c92e76" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="737a0264-8c57-43a9-a023-bdb1df88b514" />
+                </propertyInstance>
+                <elementDefinition Id="1e3f74fe-d648-4c6c-bec8-6daed9b322aa" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="eb9cb9e5-4e61-46e7-9989-0212dffca185" />
+        <generalsInternal>
+          <generalization Id="a9b1b46e-2995-49fe-bdef-4f3a48fe399d" isSubstitutable="false">
+            <classMoniker Id="5bf95ee6-355d-4afa-b1a2-42affb6c3281" LastKnownName="PointrollException" />
+            <elementDefinition Id="aafdcb99-30ee-4a22-be8a-919a5f7ce17b" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="f055ff9d-fbf7-4cc7-b456-37ca766598c3" name="PersistException" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="0de9bc4b-7a7d-43a3-9d23-6a361d4c8fa4" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="2d99571a-041b-49d2-8af6-9c6f22f1e286" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="28278da2-fdcc-42a8-af9b-61080abd379d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="59ee6027-eee0-4347-9fb7-2e56c2222c71" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa245247-341f-4a78-bff7-3aa0c9cbd922">
+                    <propertyInstance Id="0c07dbb9-b943-4bc6-aa9e-b1a79070f21f" name="ClrAttributes">
+                      <elementDefinition Id="42ec461a-fec4-4f9e-8f77-e9cf235f04af" />
+                    </propertyInstance>
+                    <elementDefinition Id="48d14726-1cec-4aa8-b597-572d52938007" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="41d6238e-0f48-4af0-b119-8719a4647779">
+                    <propertyInstance Id="36ec158f-bd3b-4162-9a84-3bd0680a2121" name="IsPartial" value="false">
+                      <elementDefinition Id="8b318d50-75b1-410f-a676-2898f2cac830" />
+                    </propertyInstance>
+                    <elementDefinition Id="8ef9ba4c-1897-47d5-b488-c77d13ebe0fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c5566cc-c00d-4e7c-9e27-d6a6b95113d0">
+                    <propertyInstance Id="01f88ec9-8a47-4604-9026-fa6151fe16be" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c68548ba-32fd-442f-a260-4dca6615faa7" />
+                    </propertyInstance>
+                    <elementDefinition Id="1023e3fa-a761-41db-affd-32d33a4fc9d5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fd0f768c-76b8-47dd-9de8-e780991a8aa4">
+                    <propertyInstance Id="1b3edf6b-16f0-41c0-b9b6-a22d7b3d24fb" name="Inheritance" value="none">
+                      <elementDefinition Id="561608da-2116-4512-95b6-5bcbd878a92e" />
+                    </propertyInstance>
+                    <elementDefinition Id="6371fa39-664a-4917-a32e-505c83ffea9c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dd0d82d0-43d3-4bb1-820c-baecd9fdc9c1">
+                    <propertyInstance Id="7badd31d-54a7-4e4a-8764-ba358714a7ac" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6e5e406c-d8a6-4d84-b223-f654cecd0122" />
+                    </propertyInstance>
+                    <elementDefinition Id="2bec2463-ee2a-45e0-bb2c-3da8f3f885ee" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a732497-2a14-463f-9b12-af25a9181a19">
+                    <propertyInstance Id="dc6da8db-2962-4185-8902-d604fa3f9e49" name="params" value="false">
+                      <elementDefinition Id="ea8b1218-1db7-4382-87ea-d04d198fe269" />
+                    </propertyInstance>
+                    <elementDefinition Id="495a3e58-fd35-40cc-8823-18ce6c594061" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="27514e34-a8e9-4a24-aca5-04884f1705d6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="82757c2c-b8af-4065-99e7-614a5b110866" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="e5644c19-de7d-4f60-a4be-4b71c8ea41ad" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="94e285ad-6985-4174-b967-57bee1418368" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="523b5ea2-85fb-436b-b10e-dad8b8bbf11b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e9e846f9-51b2-4c05-b82b-cbaef365d987" name="PersistException" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="7a754f9c-6d6c-46d1-82f3-6f9d88d9ed5f" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)])" tag="ViewCode">
+                <elementDefinition Id="ecf88101-6493-4db9-a319-124c8b6f1af4" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="890aefec-9467-4765-9b0b-b53707c87cb2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="938d1dbb-d7ef-40ff-adab-30bef46247ad" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="78a61d15-1e66-489e-883e-fb597327759b">
+                    <propertyInstance Id="eb0f9a6f-5762-490d-88ee-df24f3f24ec5" name="ClrAttributes">
+                      <elementDefinition Id="66defd6b-8219-4c6d-b9d5-a32594d885fc" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ea99986-f81d-4e40-a7cc-d5a26fdcbd54" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bd4195e6-8b2e-4ec1-b368-5b7468fe336a">
+                    <propertyInstance Id="371459f5-5f49-460f-af31-f1ce79cfa0a8" name="IsPartial" value="false">
+                      <elementDefinition Id="6a63b9fb-b7b1-4e1d-8409-a9e3100834e8" />
+                    </propertyInstance>
+                    <elementDefinition Id="5b085462-5af1-4d0f-8aeb-df0b7223d76c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="97d8a167-caa2-4195-9536-47e5bf10ee40">
+                    <propertyInstance Id="27e32ffc-e761-475b-b774-fc7a7d35b024" name="IsUnsafe" value="false">
+                      <elementDefinition Id="00e4b47f-6d53-437b-b105-969f2c9aa95d" />
+                    </propertyInstance>
+                    <elementDefinition Id="301153df-7ebe-423e-8671-b83f6b7531e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="28d404be-d93b-491f-a2d8-177ebcd8970f">
+                    <propertyInstance Id="b335b93a-bb00-4fee-abe4-adc52c1579ad" name="Inheritance" value="none">
+                      <elementDefinition Id="d531c047-3302-48fc-ba72-94875dff0109" />
+                    </propertyInstance>
+                    <elementDefinition Id="4f10b3fe-6853-4f01-b64d-d8fa5c3ccd5d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ffe6832d-89fb-4359-88a2-7583cc1d5316">
+                    <propertyInstance Id="621df792-ee31-4241-9dd3-2b2d744cf518" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="2a2ea183-ef15-4d31-9624-d717bf826317" />
+                    </propertyInstance>
+                    <elementDefinition Id="318f6661-015e-4869-bf5e-e37264a5c208" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="079f871b-6fe6-492d-9c04-58dc421c3963">
+                    <propertyInstance Id="0ceb7dbf-21e4-4cbf-84b6-26d6a46d3fc5" name="params" value="false">
+                      <elementDefinition Id="5d534702-1235-46c3-88c5-0c629733a671" />
+                    </propertyInstance>
+                    <elementDefinition Id="b761b4da-ed0d-4ceb-ba63-92687694ccdc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5a7aad78-a41d-49e5-905c-486beb8edc52" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2a691694-f23f-4444-9073-35894d1f88bb" name="message" direction="In">
+                  <referencesInternal>
+                    <reference Id="3a73727b-cb58-41ad-b40a-a9a5e84bb171" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3Dmessage" tag="ViewCode">
+                      <elementDefinition Id="1758583c-4307-4bed-b7f7-ba1b732536b0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="2405479a-43d2-4a94-8fd5-ad8d7c706f83" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e11941c0-49c0-42c9-9b51-8a5191c0a2a2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2c52ca77-b3c0-4fdb-a2b4-7ce50b8e09f4" name="innerException" direction="In">
+                  <referencesInternal>
+                    <reference Id="6d449083-2dd1-493e-8129-d0efe42f2a7c" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2F!projects%2FNIX%2FCommercial%2FPointroll%2Fsource%2FCreativeAPI%2FOnpoint.Core%2Fbin%2FDebug%2FOnpoint.Core.dll Namespace%3DOnpoint.Core.Exceptions Type%3DPersistException Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DException)]) ParameterIdentifier%3DinnerException" tag="ViewCode">
+                      <elementDefinition Id="43770005-10de-43b2-93d7-1d274d928267" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="fd2cd597-3415-4e95-8869-9a824286181c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="95178dba-3b33-4675-b621-4e5c318410f7" LastKnownName="Exception" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="ce8c65a6-eb2d-4118-8150-fe27a22bdaa5" name="PR.CreativeAPI.Modeling">
+    <elementDefinition Id="362be75a-0446-4ad2-bffe-9c9fc366d44a" />
+  </package>
+</logicalClassDesignerModel>
